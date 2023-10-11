@@ -1,0 +1,100 @@
+{
+    "bangalore": [
+        {
+            "title": "Historical Places",
+            "places": [
+                {
+                    "name": "Bangalore Palace",
+                    "latitude": 12.99853,
+                    "longitude": 77.5921,
+                    "timing": "10:00 AM - 5:30 PM",
+                    "dress code": "No-boundation",
+                    "entry-fees": "INR 230",
+                    "poster": "images/bangalore-fort.jpg"
+                },
+                {
+                    "name": "Tipu Sultan Summer Palace",
+                    "latitude": 12.95569,
+                    "longitude": 77.57081,
+                    "timing": "08:30 am to 05:30 pm; every day",
+                    "dress code": "Knees and shoulders MUST be covered for both men and women.",
+                    "entry-fees": "INR 25",
+                    "poster": "images/tipu-sultan-palace.jpg"
+                },
+                {
+                    "name": " Bangalore Fort",
+                    "latitude": 12.9628,
+                    "longitude": 77.5759,
+                    "timing": "08:30 am to 05:30 pm; every day",
+                    "dress code": "",
+                    "entry-fees": "INR 5",
+                    "poster": "images/bangalore-palace.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Religious Place",
+            "places": [
+                {
+                    "name": "ISKCON Bangalore",
+                    "latitude": 12.959936,
+                    "longitude": 77.556646,
+                    "timing": "7:15 AM to 1:00 PM, 4:15 PM to 8:20 PM",
+                    "dress_code": "Modest and traditional attire is recommended when visiting the temple.",
+                    "entry_fees": "Free",
+                    "poster": "images/iskcon.jpg"
+                },
+                {
+                    "name": "Bull Temple",
+                    "latitude": 12.9440,
+                    "longitude": 77.5736,
+                    "timing": "Monday to Sunday: 6:00 AM - 8:00 PM",
+                    "dresscode": "Modest and conservative clothing is recommended.",
+                    "entryfees": "adults 10,children (below 10 years) Free",
+                    "poster": "images/nandi-bull-temple.jpg"
+                },
+                {
+                    "name": "St. Mary's Basilica",
+                    "latitude": 12.9857,
+                    "longitude": 77.6025,
+                    "timing": "6:00 AM - 9:00 PM",
+                    "dresscode": "Modest attire is recommended.",
+                    "entryfees": "Free",
+                    "poster": "images/St.Mary's_Basilica.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Adventurous Place",
+            "places": [
+                {
+                    "name": "Wonderla Amusement Park",
+                    "latitude": 12.8363,
+                    "longitude": 77.3963,
+                    "timing": "Monday to Sunday: 11:00 AM - 6:00 PM",
+                    "dresscode": "Comfortable clothing and swimwear for water rides.",
+                    "entryfees": "adults INR 950,children (3-10 years) INR760, children (below 3 years) Free",
+                    "poster": "images/wonderla.jpg"
+                },
+                {
+                    "name": "Ramanagara (Sholay Hills)",
+                    "latitude": 12.7270,
+                    "longitude": 77.2174,
+                    "timing": "Open 24 hours",
+                    "dresscode": "Casual and comfortable clothing for rock climbing and trekking.",
+                    "entryfees": "No entry fees",
+                    "poster": "images/ramanagara-hills.jpg"
+                },
+                {
+                    "name": "Skandagiri",
+                    "latitude": 13.4083,
+                    "longitude": 78.7122,
+                    "timing": " 6:00 AM to 8:00 PM",
+                    "dress code": "Casual and comfortable clothing for rock climbing and trekking.",
+                    "entryfees" : "INR 450",
+                    "poster": "images/skandagiri.jpeg"
+                }
+            ]
+        }
+    ]
+}

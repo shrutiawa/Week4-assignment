@@ -1,0 +1,100 @@
+{
+    "bangalore": [
+        {
+            "title": "Historical Places",
+            "places": [
+                {
+                    "name": "Qutub Minar",
+                    "latitude": 28.5245,
+                    "longitude": 77.1855,
+                    "timing": "9:00 AM - 6:00 PM",
+                    "dresscode": "Modest attire",
+                    "entryfees": 200,
+                    "poster": ""
+                },
+                {
+                    "name": "Red Fort",
+                    "latitude": 28.6562,
+                    "longitude": 77.2410,
+                    "timing": "9:30 AM - 4:30 PM",
+                    "dresscode": "Modest attire",
+                    "entryfees": 250,
+                    "poster": ""
+                },
+                {
+                    "name": "Humayun's Tomb",
+                    "latitude": 28.5933,
+                    "longitude": 77.2454,
+                    "timing": "Monday to Sunday: 10:00 AM - 6:00 PM",
+                    "dresscode": "Modest attire is recommended.",
+                    "entryfees": "Indian citizens: 30, Foreigners: 500",
+                    "poster": ""
+                }
+            ]
+        },
+        {
+            "title": "Religious Place",
+            "places": [
+                {
+                    "name": "Lotus Temple",
+                    "latitude": 28.5535,
+                    "longitude": 77.2588,
+                    "timing": "9:00 AM - 7:00 PM",
+                    "dresscode": "Modest attire",
+                    "entryfees": "Free",
+                    "poster": ""
+                },
+                {
+                    "name": "Akshardham Temple",
+                    "latitude": 28.6127,
+                    "longitude": 77.2773,
+                    "timing": "9:30 AM - 8:00 PM",
+                    "dresscode": "Modest attire",
+                    "entryfees": "Free",
+                    "poster": ""
+                },
+                {
+                    "name": "Jama Masjid",
+                    "latitude": 28.6139,
+                    "longitude": 77.2295,
+                    "timing": "Monday to Sunday: 7:00 AM - 12:00 PM, 1:30 PM - 6:30 PM",
+                    "dresscode": "Modest attire is required.",
+                    "entryfees": "Free",
+                    "poster": ""
+                }
+            ]
+        },
+        {
+            "title": "Adventurous Place",
+            "places": [
+                {
+                    "name": "Adventure Island",
+                    "latitude": 28.7186,
+                    "longitude": 77.1172,
+                    "timing": "11:00 AM - 8:00 PM",
+                    "dresscode": "Casual",
+                    "entryfees": 500,
+                    "poster": ""
+                },
+                {
+                    "name": "Asola Bhatti Wildlife Sanctuary",
+                    "latitude": 28.5120,
+                    "longitude": 77.2349,
+                    "timing": "Sunrise to Sunset",
+                    "dresscode": "Outdoor clothing",
+                    "entryfees": "Free",
+                    "poster": ""
+                },
+                {
+                    "name": "Flyboy Air Safari",
+                    "latitude": 28.5615,
+                    "longitude": 77.3722,
+                    "timing": "Monday to Sunday: 7:00 AM - 6:00 PM",
+                    "dresscode": "Comfortable clothing for flying",
+                    "entryfees": 2500,
+                    "poster": ""
+                }
+            ]
+        }
+    ]
+}

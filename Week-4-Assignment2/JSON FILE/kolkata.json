@@ -1,0 +1,102 @@
+{
+    "kolkata": [
+        {
+            "title": "Historical Places",
+            "places": [
+                {
+                    "name": "Victoria Memorial",
+                    "latitude": 22.5450,
+                    "longitude": 88.3426,
+                    "timing": "Tuesday to Sunday: 10:00 AM - 5:00 PM (Closed on Mondays)",
+                    "dresscode": "Modest attire is recommended.",
+                    "entryfees": "adults 30,children (5-12 years): 10,children (below 5 years): Free",
+                    "poster": "images/VictoriaMemorial.jpg"
+                  },
+                  {
+                    "name": "Howrah Bridge",
+                    "latitude": 22.5854,
+                    "longitude": 88.3468,
+                    "timing": "Open 24 hours",
+                    "dresscode": "No specific dress code.",
+                    "entryfees": "Free",
+                    "poster": "images/Howrah-bridge.jpg"
+                  },
+                  {
+                    "name": "Indian Museum",
+                    "latitude": 22.5598,
+                    "longitude": 88.3493,
+                    "timing": "Tuesday to Sunday: 10:00 AM - 5:00 PM (Closed on Mondays)",
+                    "dresscode": "Modest attire is recommended.",
+                    "entryfees": "adults: 20, children (5-12 years): 10, children (below 5 years): Free",
+                    "poster": "images/museum.jpg"
+                    
+                  }
+            ]
+        },
+        {
+            "title": "Religious Place",
+            "places": [
+                {
+                    "name": "Dakshineswar Kali Temple",
+                    "latitude": 22.6318,
+                    "longitude": 88.3578,
+                    "timing": "Monday to Sunday: 6:00 AM - 12:30 PM, 3:30 PM - 8:30 PM",
+                    "dresscode": "Modest attire is recommended.",
+                    "entryfees": "Free",
+                    "poster": "images/kali-maa.jpg"
+                } ,   
+                    
+                {
+                    "name": "Kalighat Kali Temple",
+                    "latitude": 22.5168,
+                    "longitude": 88.3462,
+                    "timing": "Monday to Sunday: 5:00 AM - 2:00 PM, 5:00 PM - 10:30 PM",
+                    "dresscode": "Modest attire is appreciated.",
+                    "entryfees": "Free",
+                    "poster": "images/kalighat.jpg"
+                  },
+                  {
+                    "name": "Belur Math",
+                    "latitude": 22.6345,
+                    "longitude": 88.3462,
+                    "timing": "Monday to Sunday: 6:00 AM - 11:30 AM, 4:00 PM - 7:00 PM",
+                    "dresscode": "Modest attire is recommended.",
+                    "entryfees": "Free",
+                    "poster": "images/bulurmath.jpg"
+                  }
+            ]
+        },
+        {
+            "title": "Adventurous Place",
+            "places": [
+                {
+                    "name": "Sundarbans Adventure",
+                    "latitude": 21.9497,
+                    "longitude": 88.9614,
+                    "timing": "Varies based on tour package",
+                    "dresscode": "Casual and comfortable clothing for jungle safaris.",
+                    "entryfees": "Varies based on tour package",
+                    "poster": "images/sundarban.jpg"
+                  },
+                {
+                    "name": "Paragliding in Purulia",
+                    "latitude": 23.2853,
+                    "longitude": 86.3633,
+                    "timing": "Varies based on operator",
+                    "dresscode": "Comfortable clothing suitable for paragliding.",
+                    "entryfees": "Varies based on operator",
+                    "poster": "images/paragliding.jpg"
+                  },
+                  {
+                    "name": "Raichak Adventures",
+                    "latitude": 22.1741,
+                    "longitude": 88.0253,
+                    "timing": "Varies based on activity",
+                    "dresscode": "Depends on the specific adventure activity.",
+                    "entryfees": "Varies based on activity",
+                    "poster": "images/raichak.jpg"
+                  }
+            ]
+        }
+    ]
+}

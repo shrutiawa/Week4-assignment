@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;display=swap" rel="stylesheet">
+    <title>Assignment #2</title>
+    <script>
+        function validatePassword() {
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirmPassword").value;
+
+            if (confirmPassword !== password) {
+                confirmPasswordMessage.textContent = "Passwords do not match.";
+            } else {
+                confirmPasswordMessage.textContent = "";
+            }
+        }
+        function init(){
+            document.getElementById("submit").addEventListener("click", validatePassword);
+    }
+        document.addEventListener("DOMContentLoaded",init)
+    </script>
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+
+        h2,
+        h3 {
+            text-align: center;
+
+        }
+
+        .image-guide {
+            background: url('images\travel-guide.jpg');
+            width: 50%;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            background-color: #f1faee;
+            overflow: auto;
+        }
+
+        #form_container {
+            width: 50%;
+            width: 400px;
+            height: 500px;
+            margin: 10px auto;
+        }
+        p{
+            font-size: 15px;
+        }
+
+        .input_styling {
+            width: 100%;
+            height: 25px;
+            background-color: #f5ebe0;
+            color: black; 
+            border: none;
+            border-radius: 5px;
+        }
+
+        .btn {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: px;
+            cursor: pointer;
+        
+        }
+
+        .btn:hover {
+            background-color: #37a08e;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-guide">
+            <img src="images\travel-guide.jpg" alt="travel-guide" width="100%" height="100%">
+        </div>
+
+        <div id="form_container">
+            <form action="user-impo-info.html" method="get" id="form-wrap">
+                <h2>TRAVEL GUIDE</h2>
+                <h3>User SignUp</h3>
+                <label for="firstname">First Name : </label>
+                <input required type="text" id="firstname" placeholder="Enter your first name" class="input_styling">
+                <br><br>
+                <label for="firstname">Last Name : </label>
+                <br>
+                <input required type="text" id="lastname" placeholder="Enter your last name" class="input_styling">
+                <br><br>
+                <label for="phone">Mobile No. : </label>
+                <br>
+                <input required type="number" id="phone" placeholder="Enter your Mobile no." class="input_styling">
+                <br><br>
+                <label for="email">Email : </label>
+                <br>
+                <input required type="email" id="email" placeholder="Enter your email id" class="input_styling">
+                <br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required class="input_styling" min="8">
+                <br><br>
+
+                <label for="confirmPassword">Confirm Password:</label><br>
+                <input type="password" id="confirmPassword" name="confirmPassword" required class="input_styling" min="8">
+                <span id="passwordMessage"></span>
+                <br>
+                <span id="confirmPasswordMessage"></span>
+                <button class="btn input_styling" id="submit" value="submit">Sign Up</button>
+                <br>
+                <p>Already have account? <a href="login.html">Login </a> here</p>
+            </form>
+        </div>
+    </div>
+    
+</body>
+
+</html>
