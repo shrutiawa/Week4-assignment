@@ -1,0 +1,37 @@
+{
+    "avengers": [
+        {
+            
+            "title": "Batman",
+            "gender": "male",
+            "firstname": "Bruce",
+            "lastname": "Wayne",
+            "city": "Gotham",
+            "ticketprice": 123.4567,
+            "releasedate": "1/26/2018",
+            "poster": "assets/images/batman.jpg"
+        },
+        {
+          
+            "title": "Superman",
+            "gender": "male",
+            "firstname": "Clark",
+            "lastname": "Kent",
+            "city": "Metropolis",
+            "ticketprice": 178.6789,
+            "releasedate": "1/27/2018",
+            "poster": "assets/images/superman.jpg"
+        },
+        {
+            
+            "title": "Ironman",
+            "gender": "male",
+            "firstname": "Tony",
+            "lastname": "Stark",
+            "city": "New York",
+            "ticketprice": 122,
+            "releasedate": "1/27/2018",
+            "poster": "assets/images/ironman.jpg"
+        }
+    ]
+}
