@@ -7,15 +7,17 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;display=swap" rel="stylesheet">
     <title>Assignment #2</title>
     <script>
-        function validatePassword() {
+        function validatePassword(evt) {
             var password = document.getElementById("password").value;
             var confirmPassword = document.getElementById("confirmPassword").value;
 
             if (confirmPassword !== password) {
                 confirmPasswordMessage.textContent = "Passwords do not match.";
+                evt.preventDefault();
             } else {
                 confirmPasswordMessage.textContent = "";
             }
+            
         }
         function init(){
             document.getElementById("submit").addEventListener("click", validatePassword);
